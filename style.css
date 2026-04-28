@@ -1,0 +1,73 @@
+* {
+    margin: 0 auto;/*centralizar para resposividade*/
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background-image: url(img/ellie-the-last-of-us-part-2-uhdpaper.com-4K-7.1129-1-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+}
+.main{
+    width: 60%;
+    padding: 20px;
+    background-color: rgba(40, 43, 53, 0.9);
+    position: relative;
+    border-radius: 20px;
+    border: 1px groove rgb(20, 20, 20);
+     box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+img{
+    width: 100%;
+    height: auto;
+     border-radius: 20px;
+     box-shadow: 5px 5px 10px rgb(73, 72, 72);
+}
+h1{
+    color: rgb(221, 44, 44);
+    font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.cor-um {
+  color: #adbbabd7; 
+    text-shadow: 5px 5px 10px rgb(190, 201, 190);
+}
+
+.cor-dois {
+  color: #f04604; 
+    text-shadow: 5px 5px 10px rgb(211, 0, 0);
+}
+.cor-tres {
+  color: #adbbabd7; 
+    text-shadow: 5px 5px 10px rgb(190, 201, 190);
+}
+.cor-for {
+  color: #f04604; 
+    text-shadow: 5px 5px 10px rgb(211, 0, 0);
+}
+.cor-cinco {
+    color: #adbbabd7; 
+    text-shadow: 5px 5px 10px rgb(190, 201, 190);
+}
+.cor-six {
+     color: #f04604; 
+    text-shadow: 5px 5px 10px rgb(211, 0, 0);
+}
+.fora{
+    position: absolute;
+    width: 700px;
+    height: auto;
+    /*red, green, blue, alpha = 0 to 1, 1 is opaque*/
+    left: 70%;
+    margin-left: -350px;
+    top: 850px;
+    border-radius: 25px;
+}
+
+
